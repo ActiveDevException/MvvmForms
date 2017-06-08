@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MvvmForms", "Core\MvvmForms.vbproj", "{048EFA6C-B9FB-441E-9432-1F72B332856C}"
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EFL_BasicCodedUITest", "Test\EFL_CodedUITestContainer\EFL_BasicCodedUITest\EFL_BasicCodedUITest.vbproj", "{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EFL_CodedUITestContainer", "Test\EFL_CodedUITestContainer\EFL_CodedUITestContainer\EFL_CodedUITestContainer.vbproj", "{5AE4A469-D86C-4DF6-9516-26015C466714}"
 EndProject
@@ -28,7 +26,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmBaseLib.NET451", "MvvmB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmFormsCSharpDemos", "MvvmFormsCSharpDemos\MvvmFormsCSharpDemos.csproj", "{7F52989F-0A48-4697-B822-49F9F815370E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmBaseLib.NetStandard", "MvvmBaseLib.NetStandard\MvvmBaseLib.NetStandard.csproj", "{8E6B70E4-007E-442D-819C-0013BA39513A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmBaseLib.NetStandard", "MvvmBaseLib.NetStandard\MvvmBaseLib.NetStandard.csproj", "{8E6B70E4-007E-442D-819C-0013BA39513A}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -72,27 +70,6 @@ Global
 		{048EFA6C-B9FB-441E-9432-1F72B332856C}.Release|x64.ActiveCfg = Release|Any CPU
 		{048EFA6C-B9FB-441E-9432-1F72B332856C}.Release|x86.ActiveCfg = Release|x86
 		{048EFA6C-B9FB-441E-9432-1F72B332856C}.Release|x86.Build.0 = Release|x86
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Debug|x86.ActiveCfg = Debug|x86
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Debug|x86.Build.0 = Debug|x86
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.DebugWork|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.DebugWork|Any CPU.Build.0 = Debug|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.DebugWork|Mixed Platforms.ActiveCfg = Debug|x86
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.DebugWork|Mixed Platforms.Build.0 = Debug|x86
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.DebugWork|x64.ActiveCfg = Debug|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.DebugWork|x86.ActiveCfg = Debug|x86
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.DebugWork|x86.Build.0 = Debug|x86
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Release|Mixed Platforms.Build.0 = Release|x86
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Release|x64.ActiveCfg = Release|Any CPU
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Release|x86.ActiveCfg = Release|x86
-		{6B13EC94-21E6-45E7-BB6C-0C8C16E1881F}.Release|x86.Build.0 = Release|x86
 		{5AE4A469-D86C-4DF6-9516-26015C466714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5AE4A469-D86C-4DF6-9516-26015C466714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AE4A469-D86C-4DF6-9516-26015C466714}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
